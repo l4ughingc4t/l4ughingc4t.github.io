@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Payday - Writeup"
 date = "2026-10-11"
 description = "CS-Cartの認証後RCE(Template Editorのファイル拡張子フィルタ回避)からwww-dataを取得し、弱いパスワードでpatrickへ横移動後、sudo (ALL) ALLの誤設定を悪用してroot権限を取得"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[CS-Cart]", "[RCE]", "[sudo]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[CS-Cart]", "[RCE]", "[sudo]", "[Intermediate]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
