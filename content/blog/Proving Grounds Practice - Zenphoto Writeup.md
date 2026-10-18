@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Zenphoto Writeup"
 date = "2026-10-15"
 description = "Zenphoto 1.4.1.4のWebシェル機能を悪用して初期アクセスを獲得し、Linuxカーネルの脆弱性(RDS socket exploit)を利用して特権昇格"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Zenphoto 1.4.1.4 - Remote Code Execution]", "[gobuster]", "[Kernel Exploit - RDS Privilege Escalation]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Zenphoto 1.4.1.4 - Remote Code Execution]", "[gobuster]", "[Kernel Exploit - RDS Privilege Escalation]", "[Intermediate]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
