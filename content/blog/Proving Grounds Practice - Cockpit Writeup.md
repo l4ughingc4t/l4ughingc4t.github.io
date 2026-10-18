@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Cockpit Writeup"
 date = "2026-10-18"
 description = "ログインフォームのSQLインジェクションで資格情報を窃取し、Cockpit Web Consoleへのログインとsudo tarのワイルドカードインジェクションによりrootを取得"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Cockpit]", "[SQL Injection]", "[Cockpit Web Console]", "[Wildcard Injection]", "[GTFOBins]", "[tar]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Cockpit]", "[SQL Injection]", "[Cockpit Web Console]", "[Wildcard Injection]", "[GTFOBins]", "[tar]", "[Intermediate]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
