@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - ClamAV Writeup"
 date = "2026-10-07"
 description = "ClamAVのclamav-milterの設定を特定、エクスプロイトを使用し、Sendmailのリモートコマンド実行の脆弱性を悪用"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Sendmail with clamav-milter < 0.91.2 - Remote Command Execution ]", "[snmpwalk]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Sendmail with clamav-milter < 0.91.2 - Remote Command Execution ]", "[snmpwalk]", "[Intermediate]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
