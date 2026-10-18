@@ -172,8 +172,4 @@ root
 7. `sudo -l`による`tar`コマンドの設定確認
 8. `tar`のワイルドカードインジェクションによるroot権限の取得
 
-今回のポイントは、**Webアプリケーションの認証バイパスで窃取した資格情報をサーバー管理コンソール(Cockpit)の認証に転用し、さらに`sudo`で許可されたコマンドのワイルドカード展開を悪用してroot権限まで到達したこと**である。
 
-### 参考
-
-- [hekk.one - Proving Grounds Practice: Cockpit](https://hekk.one/posts/offsec/pg_practice/cockpit/)
