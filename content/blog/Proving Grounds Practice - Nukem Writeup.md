@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Nukem Writeup"
 date = "2026-10-17"
 description = "WordPressプラグイン Simple File List の脆弱性を利用してWebシェルを取得し、資格情報の使い回しとSUIDバイナリ(dosbox)の悪用によりrootを取得"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Nukem]", "[WordPress]", "[Simple File List]", "[Credential Reuse]", "[SUID]", "[dosbox]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Nukem]", "[WordPress]", "[Simple File List]", "[Credential Reuse]", "[SUID]", "[dosbox]", "[Hard]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
