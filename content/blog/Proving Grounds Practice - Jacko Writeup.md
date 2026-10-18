@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Jacko Writeup"
 date = "2026-10-17"
 description = "H2 Database ConsoleのJNI Code Execution脆弱性を利用して初期アクセスを獲得し、SeImpersonatePrivilegeとGodPotatoを悪用してNT AUTHORITY\\SYSTEMを取得"
-tags = ["Proving Grounds Practice", "CTF", "[Windows]", "[Jacko]", "[H2 Database]", "[JNI Code Execution]", "[Exploit-DB]", "[SeImpersonatePrivilege]", "[GodPotato]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Windows]", "[Jacko]", "[H2 Database]", "[JNI Code Execution]", "[Exploit-DB]", "[SeImpersonatePrivilege]", "[GodPotato]", "[Hard]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
