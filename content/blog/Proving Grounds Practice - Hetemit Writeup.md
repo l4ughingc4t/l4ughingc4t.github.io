@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Internal Writeup"
 date = "2026-10-14"
 description = "Werkzeugデバッグコンソイル(os.system)経由でRCEを獲得後、書き込み可能なsystemdユニットファイルとsudo /sbin/rebootの組み合わせでroot権限を取得"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Werkzeug]", "[systemd]", "[Privilege Escalation]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[Werkzeug]", "[systemd]", "[Privilege Escalation]", "[Very Hard]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
