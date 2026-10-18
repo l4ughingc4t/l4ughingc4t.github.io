@@ -316,8 +316,3 @@ SYSTEM権限のシェルを取得できたことを確認した。
 8. Webシェル経由でのコマンド実行(apache)
 9. `SeImpersonatePrivilege`の確認と`GodPotato`によるトークン窃取
 10. `NT AUTHORITY\SYSTEM`の取得
-
-
-### 参考
-
-- [hackindex.io - Craft Writeup](https://hackindex.io/writeups/craft)
