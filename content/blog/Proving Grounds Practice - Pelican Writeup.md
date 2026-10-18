@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Pelican Writeup"
 date = "2026-10-08"
 description = "ZooKeeperの設定を悪用して初期アクセスを取得、sudoで許可されたgcoreからrootプロセスのメモリをダンプしてrootパスワードを取得"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[ZooKeeper]", "[Exhibitor]", "[gcore]", "[sudo]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[ZooKeeper]", "[Exhibitor]", "[gcore]", "[sudo]", "[Intermediate]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
