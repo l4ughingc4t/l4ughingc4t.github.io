@@ -2,7 +2,7 @@
 title = "Proving Grounds Practice - Nibbles Writeup"
 date = "2026-10-14"
 description = "PostgreSQLへroot権限でログインし、COPY FROM PROGRAMによるリモートコマンド実行でシェルを取得、SUIDが付与されたfindバイナリを悪用してroot権限に昇格"
-tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[PostgreSQL COPY FROM PROGRAM RCE]", "[SUID find privesc]", "[easy]"]
+tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[PostgreSQL COPY FROM PROGRAM RCE]", "[SUID find privesc]", "[Intermediate]"]
 categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
