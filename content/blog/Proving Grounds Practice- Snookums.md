@@ -3,7 +3,7 @@ title = "Proving Grounds Practice - Snookums"
 date = "2026-10-11"
 description = "Simple PHP Photo Gallery v0.8の公開PoCでapache権限のシェルを取得し、MySQL内の二重Base64エンコードされたクレデンシャルを復元してmichaelでSSHログイン、書き込み可能な/etc/passwdを悪用してroot権限を取得"
 tags = ["Proving Grounds Practice", "CTF", "[Linux]", "[PHP]", "[MySQL]", "[OpenSSL]", "[intermediate]"]
-categories = ["Proving Grounds Play"]
+categories = ["Proving Grounds Practice"]
 toc = true
 draft = false
 +++
