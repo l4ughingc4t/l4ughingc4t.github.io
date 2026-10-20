@@ -5,3 +5,15 @@ theme = "PaperMod"
 
 [permalinks]
 posts = "/blog/:slug/"
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
