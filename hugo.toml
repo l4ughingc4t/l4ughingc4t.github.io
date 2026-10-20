@@ -3,6 +3,12 @@ languageCode = "ja"
 title = "l4ughingc4t | Security Research"
 theme = "PaperMod"
 
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+
 [permalinks]
 posts = "/blog/:slug/"
 
