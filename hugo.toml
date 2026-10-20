@@ -16,10 +16,10 @@ posts = "/blog/:slug/"
   identifier = "categories"
   name = "Categories"
   url = "/categories/"
-  weight = 20
+  weight = 50
 
 [[menu.main]]
   identifier = "tags"
   name = "Tags"
   url = "/tags/"
-  weight = 30
+  weight = 50
