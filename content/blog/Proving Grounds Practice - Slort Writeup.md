@@ -1,7 +1,3 @@
-# Proving Grounds Practice - Slort Writeup
-
-**Community Rating:** Intermediate
-
 +++
 title = "Proving Grounds Practice - Slort Writeup"
 date = "2026-10-29"
