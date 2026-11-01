@@ -1,7 +1,3 @@
-# Proving Grounds Practice - Access Writeup
-
-**Community Rating:** 未確認
-
 +++
 title = "Proving Grounds Practice - Access Writeup"
 date = "2026-10-28"
