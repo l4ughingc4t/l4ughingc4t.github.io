@@ -15,7 +15,6 @@ draft = false
 | Machine | Peppo |
 | OS | Linux |
 | Target IP | 192.168.122.60 |
-| Difficulty | Hard |
 
 ---
 
@@ -495,13 +494,5 @@ Root Flagを取得できた。
 11. PwnKitを利用してroot権限を取得
 12. `proof.txt`を取得して攻略完了
 
-### Lessons Learned
 
-- RedmineなどのWebアプリケーションでは、初期設定の認証情報が残っていないか確認する。
-- PostgreSQLの`COPY FROM PROGRAM`はOSコマンド実行につながるため、データベースの認証情報や権限管理が重要となる。
-- PostgreSQLのコマンド実行権限を取得しても、実行ユーザーの権限によってアクセスできる範囲は異なる。
-- Restricted Bashでは、利用可能なコマンドを列挙し、シェルエスケープにつながる機能がないか調査する。
-- `ed`のようなテキストエディタでも、設定や起動方法によってはシェルを起動できる場合がある。
-- Linux環境ではPwnKitなどの脆弱性を利用した権限昇格の可能性を確認する。
-- LinPEASなどの列挙ツールを利用して、権限昇格につながる設定や脆弱性を調査する。
 
