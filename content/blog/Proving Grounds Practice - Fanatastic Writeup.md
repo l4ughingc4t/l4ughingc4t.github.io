@@ -427,11 +427,6 @@ ssh sysadmin@192.168.226.181
 cat local.txt
 ```
 
-結果：
-
-```text
-63cd0fd64aa5f1a7929efc98cae9699c
-```
 
 これにより、初期アクセスを取得できた。
 
@@ -535,11 +530,6 @@ root@fanatastic:~#
 cat proof.txt
 ```
 
-結果：
-
-```text
-eede4131828b318715f80a5d45c30102
-```
 
 これにより、root権限の取得に成功した。
 
@@ -582,13 +572,6 @@ Searchsploitで対応する脆弱性を調査し、CVE-2021-43798を利用して
 13. rootのSSH秘密鍵を取得
 14. SSHでrootとしてログイン
 15. `proof.txt`からrootフラグを取得
-
-### Flags
-
-| Flag | Value |
-|------|-------|
-| local.txt | `63cd0fd64aa5f1a7929efc98cae9699c` |
-| proof.txt | `eede4131828b318715f80a5d45c30102` |
 
 ### Key Takeaways
 
