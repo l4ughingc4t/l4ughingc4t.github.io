@@ -364,9 +364,6 @@ WerTrigger.exe
 [-] Exploit failed.
 ```
 
-Kali側とWindows側で3ファイルのMD5を比較したところ、`WerTrigger.exe`、`Report.wer`、`phoneinfo.dll` はそれぞれ一致していた。そのため、少なくともファイル転送時の破損は確認されなかった。
-
-一方で、WERトリガーによる処理は失敗しており、この段階ではSYSTEMシェルを取得できていない。接続失敗の原因も、現在のログだけでは特定できていない。
 
 ### Alternative DLL Attempt
 
@@ -386,7 +383,7 @@ OS Version:  10.0.17763 N/A Build 17763
 Domain:      access.offsec
 ```
 
-ただし、この手法でもリバースシェルの確立は確認できていないため、成功した権限昇格手順としては扱わない。
+ただし、この手法でもリバースシェルの確立は確認できなかった。
 
 ---
 
