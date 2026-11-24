@@ -367,13 +367,6 @@ session
 start
 ```
 
-Kali側の別ターミナルでTUNインターフェースを作成する。
-
-```bash
-sudo ip tuntap add user kali mode tun ligolo
-sudo ip link set ligolo up
-```
-
 内部ネットワークへのルートを追加する。
 
 ```bash
