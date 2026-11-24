@@ -373,19 +373,6 @@ start
 sudo ip route add 192.168.160.0/24 dev ligolo
 ```
 
-### Port Forwarding
-
-Ligolo-ngのProxyコンソールでリスナーを追加する。
-
-```text
-listener_add --addr 0.0.0.0:1433 --to 127.0.0.1:1433
-```
-
-hostsファイルに以下を追記する。
-
-```text
-127.0.0.1       localhost nagoya.nagoya-industries.com NAGOYA-INDUSTRIES.COM
-```
 
 ### MSSQL Authentication
 
